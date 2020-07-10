@@ -29,7 +29,7 @@ Object.defineProperty(Array.prototype, 'chunk', {
  */
 const createCDNFile = (path)=> {
   return ghCDN({
-    user: 'waifu-project',
+    username: 'waifu-project',
     repo: '18comic-live',
     path
   })
